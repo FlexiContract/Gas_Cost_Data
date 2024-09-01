@@ -1,0 +1,5 @@
+# FlexiContracts Gas Cost Analysis Data
+This repository contains the gas cost data used in the analysis of FlexiContracts, a novel approach to smart contract upgradeability on the Ethereum blockchain.
+## Data Description
+The data set includes gas costs for six different smart contract configurations, comparing FlexiContracts' storage reorganization method with traditional storage initialization.
+This data was generated through a series of simulated scenarios using randomly generated smart contracts with diverse data types and structures. For traditional storage initialization, standard Ethereum gas calculations were used. For FlexiContracts, since its On-chain Storage Reorganizer operates outside the EVM, gas costs were estimated by aligning its operations with the most similar EVM opcodes and assigning corresponding gas values. This approach allowed for a fair comparison between the two methods across various levels of contract complexity.
