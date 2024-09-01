@@ -1,0 +1,69 @@
+[
+  {
+    "encoding": "bytes",
+    "label": "string",
+    "numberOfBytes": "32",
+    "type": "t_string_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint256",
+    "numberOfBytes": "32",
+    "type": "t_uint256",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint64",
+    "numberOfBytes": "8",
+    "type": "t_uint64",
+    "oldNumberOfBytes": 8,
+    "newNumberOfBytes": 8,
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_uint64",
+    "encoding": "dynamic_array",
+    "label": "uint64[]",
+    "numberOfBytes": "32",
+    "type": "t_array(t_uint64)dyn_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "struct Contract7.StructType",
+    "members": [
+      {
+        "offset": 0,
+        "type": "t_string_storage",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "oldOffset": 0,
+        "newOffset": 0
+      },
+      {
+        "offset": 0,
+        "type": "t_uint256",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "oldOffset": 0,
+        "newOffset": 0
+      }
+    ],
+    "numberOfBytes": "64",
+    "type": "t_struct(StructType)_storage",
+    "oldNumberOfBytes": 64,
+    "newNumberOfBytes": 64,
+    "base": null
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "encoding": "bytes",
+    "label": "string",
+    "numberOfBytes": "32",
+    "type": "t_string_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "uint256",
+    "numberOfBytes": "32",
+    "type": "t_uint256",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "bool",
+    "numberOfBytes": "1",
+    "type": "t_bool",
+    "oldNumberOfBytes": 1,
+    "newNumberOfBytes": 1,
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_uint256",
+    "encoding": "dynamic_array",
+    "label": "uint256[]",
+    "numberOfBytes": "32",
+    "type": "t_array(t_uint256)dyn_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "address",
+    "numberOfBytes": "20",
+    "type": "t_address",
+    "oldNumberOfBytes": 20,
+    "newNumberOfBytes": 20,
+    "base": null,
+    "members": null
+  },
+  {
+    "base": "t_address",
+    "encoding": "inplace",
+    "label": "address[5]",
+    "numberOfBytes": "160",
+    "type": "t_array(t_address)5_storage",
+    "oldNumberOfBytes": 160,
+    "newNumberOfBytes": 160,
+    "members": null
+  },
+  {
+    "encoding": "bytes",
+    "label": "bytes",
+    "numberOfBytes": "32",
+    "type": "t_bytes_storage",
+    "oldNumberOfBytes": 32,
+    "newNumberOfBytes": 32,
+    "base": null,
+    "members": null
+  },
+  {
+    "encoding": "inplace",
+    "label": "struct StructuredContract.ComplexStruct",
+    "members": [
+      {
+        "offset": 0,
+        "type": "t_string_storage",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000008",
+        "oldOffset": 0,
+        "newOffset": 0
+      },
+      {
+        "offset": 0,
+        "type": "t_uint256",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000009",
+        "oldOffset": 0,
+        "newOffset": 0
+      },
+      {
+        "offset": 0,
+        "type": "t_bool",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "oldOffset": 0,
+        "newOffset": 0
+      },
+      {
+        "offset": 0,
+        "type": "t_array(t_uint256)dyn_storage",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000003",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "oldOffset": 0,
+        "newOffset": 0
+      },
+      {
+        "offset": 0,
+        "type": "t_array(t_address)5_storage",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000004",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "oldOffset": 0,
+        "newOffset": 0
+      },
+      {
+        "offset": 0,
+        "type": "t_bytes_storage",
+        "oldSlot": "0x0000000000000000000000000000000000000000000000000000000000000009",
+        "newSlot": "0x0000000000000000000000000000000000000000000000000000000000000007",
+        "oldOffset": 0,
+        "newOffset": 0
+      }
+    ],
+    "numberOfBytes": "320",
+    "type": "t_struct(ComplexStruct)_storage",
+    "oldNumberOfBytes": 320,
+    "newNumberOfBytes": 320,
+    "base": null
+  }
+]
